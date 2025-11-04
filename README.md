@@ -1,4 +1,4 @@
-##Book Rating Prediction using Multiple Linear Regression
+#Book Rating Prediction using Multiple Linear Regression
 
 This project applies a multiple linear regression model to predict the rating of books based on their attributes such as author, publisher, publication year, format, number of pages, category, and popularity.
 The project demonstrates the use of supervised learning techniques to analyze relationships between numerical and categorical features.
