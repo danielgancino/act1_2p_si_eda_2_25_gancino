@@ -72,4 +72,21 @@ Three techniques for processing categorical variables were included:
 - Metrics (R², MSE, RMSE) were calculated for both models.
 - The impact of the applied techniques on the quality of the prediction was analyzed.
 
+## Last changes made
+
+For this task, it was focused on implementing two splitting techniques for the dataset:
+
+1. **K-Fold Cross Validation:**
+   - Split the data into K subsets (folds) and trained the model K times, each time using K-1 subsets for training and the remaining subset for testing.
+   - This technique provides a more robust evaluation by utilizing multiple partitions of the dataset.
+
+2. **Leave-One-Out Cross Validation (LOOCV):**
+   - Each data point is used as a test set while the rest of the data points are used as the training set. This process is repeated for each data point in the dataset.
+   - Though computationally expensive, this method gives an accurate evaluation for each individual data point.
+
+Both techniques were applied using a multiple linear regression model*, and the models' performances were compared in terms of R², MSE, and RMSE.
+
+The best model was chosen based on the computational efficiency and generalization capability, with K-Fold Cross Validation being the preferred method.
+
+
 
